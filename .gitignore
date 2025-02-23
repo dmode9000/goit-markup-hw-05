@@ -1,5 +1,8 @@
 secret.md
 .prettierrc.json
+.stylelintrc.json
+package.json
+package-lock.json
 
 # Logs
 logs
