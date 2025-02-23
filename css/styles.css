@@ -760,14 +760,21 @@ header .container {
 .modal-form {
 }
 
+.modal-form-part {
+  margin-bottom: 8px;
+}
+
 .modal-form-label {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  margin-bottom: 8px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
+}
+.modal-form-label[for="acceptation"] {
+  margin: 0;
 }
 
 .modal-form-input {
@@ -823,21 +830,20 @@ header .container {
 
 .modal-input-container {
   display: block;
-  margin-top: 4px;
   position: relative;
 }
 
-.modal-form-label.v-aligned {
+.v-aligned {
   display: flex;
   align-items: center;
 }
 
 .modal-form-label:nth-last-child(3) {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .modal-form-label:nth-last-child(2) {
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 .modal-form-custom-checkbox {
@@ -862,6 +868,7 @@ header .container {
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   background-color: #404bbf;
 }
+
 .modal-form-checkbox:checked + .modal-form-custom-checkbox .modal-form-custom-checkbox-icon {
   fill: #ffffff;
 }
@@ -875,6 +882,7 @@ header .container {
 .modal-form-link {
   color: #4d5ae5;
   text-decoration: underline;
+  margin: 0;
 }
 
 .modal-form-button {
