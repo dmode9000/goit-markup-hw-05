@@ -783,6 +783,7 @@ header .container {
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
+  fill: #2e2f42;
 }
 
 .modal-input-container:focus-within .modal-form-label-icon,
@@ -794,6 +795,7 @@ header .container {
 }
 
 .modal-input-container {
+  display: block;
   margin-top: 4px;
   position: relative;
 }
