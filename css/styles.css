@@ -738,9 +738,13 @@ header .container {
 
 .modal-button-close:hover,
 .modal-button-close:focus {
-  fill: #ffffff;
   background-color: #404bbf;
   border: none;
+}
+
+.modal-button-close:hover .modal-button-close-icon,
+.modal-button-close:focus .modal-button-close-icon {
+  fill: #ffffff;
 }
 
 .modal-title {
