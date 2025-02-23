@@ -877,6 +877,8 @@ header .container {
 }
 
 .modal-form-checkbox:checked + .modal-form-label .modal-form-custom-checkbox {
+  border: none;
+  fill: #f4f4fd;
   background-color: #404bbf;
 }
 
@@ -901,7 +903,7 @@ header .container {
   display: block;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgb(0 0 0 / 15%);
   background: #4d5ae5;
